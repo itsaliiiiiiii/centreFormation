@@ -1,0 +1,365 @@
+body{
+    margin: 0px ;
+}
+.title{
+    background-color: #EA906C;
+    color :#EEE2DE;
+    margin: 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    padding:10px;
+}
+.fonctionnalite{
+    background-color: #EEE2DE;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 180px;
+    font-size: 20px;
+    color: #2B2A4C;
+}
+a{
+    color:black;
+    text-decoration: none;
+}a:hover{
+    color:#EA906C;
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inscription {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inscription input[type="text"],
+.inscription input[type="number"],
+.inscription select {
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.inscription input[type="text"]:focus,
+.inscription input[type="number"]:focus,
+.inscription select:focus {
+    outline: none;
+    border-color: #EA906C;
+    box-shadow: 0 0 5px #e57d54;
+}
+.inscription button {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    background-color: #EA906C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inscription button:hover {
+    background-color: #EA906C;
+}
+.inscription input[type="radio"]{
+    margin-bottom: 10px;
+}
+.titleProf,
+.titlePerson{
+    text-align: center;
+    margin-top: 30px;
+}
+.tableProf1,
+.tablePerson1,
+.tableSalle2{
+    color: #7e7c7c;
+    padding: 10px;
+    padding-left:40px;
+    margin: 3px 140px;
+    background-color: #fcf1ee;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px
+}
+.tableProf2 ,
+.tablePerson2,
+.tableSalle1{
+    color: #7e7c7c;
+    padding: 10px;
+    padding-left:40px;
+    margin: 3px 140px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px
+}
+.absenceButton,
+.deleteBotton,
+.editerBotton,
+.show,
+.seanceButton{
+    border:1px solid #e1e0e0 ;
+    background-color: #efd5cb;
+    color: #ac6c53;
+    border-radius: 7px;
+}
+.editerBotton{
+    margin: 0px 12px;
+}
+.deleteBotton:hover{
+    color:#474545;
+    background-color: #f09a9a;
+    border-radius: 7px;
+}
+.editerBotton:hover,
+.show:hover{
+    color:#474545;
+    background-color: rgb(185, 228, 185);
+    border-radius: 7px;
+}
+.absenceButton:hover,
+.seanceButton:hover{
+    color:#474545;
+    background-color: rgb(198, 187, 237);
+    border-radius: 7px;
+}
+.formAddProf,
+.formGroup{
+    display: flex;
+    justify-content: center;
+    margin: 35px 200px;
+}
+.addProf1,
+.addProf2,
+.SelectProf,
+.selectGroup{
+    width: 160px;
+    margin: 10px 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.addProf1:focus,
+.addProf2:focus,
+.SelectProf:focus{
+    box-shadow: 0 0 5px #e57d54;
+}
+.button {
+    margin: 10px 0px;
+    height: 34px;
+    width: 140px;
+    padding: 0px 10px;
+    background-color: #ea906c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #dd7b55;
+}
+.empty{
+    height: 60px;
+}
+.succes{
+    color: rgb(54, 183, 54);
+    margin-left: 216px;
+}
+.notsucces{
+    color: rgb(207, 83, 83);
+    margin-left: 216px;
+}
+.Etudiant{
+    margin-top:40px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.groups{
+    margin-top:40px;
+    margin-left: 170px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.faitTest{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top:30px;
+    color: #EA906C;
+    font-size: 20px;
+}
+.inputNbrSeance{
+    border:1px solid #e1e0e0 ;
+    background-color: #f0e3de;
+    color: #000000;
+    border-radius: 7px;
+    margin-right:10px ;
+    width: 40px;
+}
+.inputNbrSeance:focus{
+    outline: none;
+    border-color: #e7bfaf;
+    background-color: #f4f2f2;
+    box-shadow: 0 0 5px #e57d54;
+}
+.point{
+    background-color: #e07f7f;
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    margin-top:12px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: -10px;
+}
+.notpoint{
+    background-color: #ffe3b3;
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    margin-top:12px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: -10px;
+}
+.deleteBotton,
+.emploie,
+.editerBotton{
+    border:1px solid #e1e0e0 ;
+    background-color: #efd5cb;
+    color: #ac6c53;
+    border-radius: 7px;
+}
+.emploie:hover{
+    color:#000000;
+    background-color: #eeb96f;
+    border-radius: 7px;
+}
+.recu {
+    background-color: #f99f7c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 24px;
+    max-width: 628px;
+    margin: 15px auto;
+}
+.aligne {
+    text-align: left;
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.ligne {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.value {
+    margin-left: 14px;
+    color: #0f0f0f;
+    font-size: 21px;
+}
+.precedent {
+    margin: 200px 10px 0px 10px;
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    font-size: 40px;
+}
+.refus {
+    color: #870909;
+    margin:0px;
+    text-align: center;
+    padding: 20px;
+}
+.Recu{
+    color: #870909;
+    margin:0px;
+    text-align: center;
+    padding: 60px;
+}
+.tableRow {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    font-size: 20px;
+}
+.tableCell {
+    flex: 1;
+    padding-left: 6px;
+    border-right: 1px solid #ccc;
+}
+.tableCell:last-child {
+    border-right: none;
+}
+.tableButtonCell{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    flex: 0.1;
+}
+.tableHeader {
+    margin: 0 auto;
+    width: 1210px;
+}
+.header{
+    padding: 10px;
+    padding-left:40px;
+    margin: 10px 140px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    color: #dd7b55;
+}
+.Row{
+    width: 60%;
+    margin: 0 auto;
+}
+.Row2{
+    width: 40%;
+    margin: 0 auto;
+}
+.table{
+    margin: 0px 150px;
+    width:1200px;
+}
+.table2{
+    margin: 0px -120px;
+    width:1400px;
+}
+.doitPayer{
+    color:rgb(228, 107, 107);
+}
+.tableHeaderPerson {
+    margin: 0px auto 16px auto;
+}
+.action{
+    margin-right: 39px;
+}
+.buttonGroup{
+    margin: 10px 0px;
+    height: 34px;
+    width: 90px;
+    padding: 0px 10px;
+    background-color: #ea906c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.buttonGroup:hover{
+    background-color: #c56d4a;
+}
