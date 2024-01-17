@@ -24,7 +24,7 @@ include("Data.php");
         echo '<div class=aligne>';
         echo '<div class="info">';
         echo '<label class="ligne">Nom :</label><span class="value">' . $_GET['nom'] . '</span>';
-        echo '</div>';
+            echo '</div>';
 
         echo '<div class="info">';
         echo '<label class="ligne">Prenom :</label><span class="value">' . $_GET['prenom'] . '</span>';
