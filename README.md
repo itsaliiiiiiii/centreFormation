@@ -31,10 +31,10 @@ Emploi du temps du centre : affichage des groupes pour chaque salle par jour et 
 
 
 <div style="text-align: center;">
-    <img src="images/1.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/2.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/3.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/4.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
+    <img src="images/1.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/5.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/6.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/7.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
