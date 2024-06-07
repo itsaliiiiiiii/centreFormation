@@ -27,3 +27,6 @@ Emploi du temps du centre : affichage des groupes pour chaque salle par jour et 
 - Base de Données : MySQL
 - Frontend : HTML, CSS
 
+<div style="text-align: center;">
+    <img src="images/1.png" alt="Logo" style="width: 150px; height: 150px; border-radius: 50%;">
+</div>
