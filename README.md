@@ -28,5 +28,5 @@ Emploi du temps du centre : affichage des groupes pour chaque salle par jour et 
 - Frontend : HTML, CSS
 
 <div style="text-align: center;">
-    <img src="images/1.png" alt="Logo" style="width: 150px; height: 150px; border-radius: 50%;">
+    <img src="images/1.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
 </div>
