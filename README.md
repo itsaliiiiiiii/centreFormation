@@ -1,6 +1,6 @@
 
 # Centre de Formation
-<img src="images/Subject.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
+<img src="images/Subject.png" alt="Logo" style=" height: 150px; border-radius: 50%;">
 
 Ce projet est développé dans le cadre du module Systèmes d’Information & Bases de Données Relationnelles pour les étudiants de Génie Informatique à l'ENSA Khouribga. Il s'agit d'une application web destinée à la gestion d'un centre de formations (cours de soutien, langues, et autres formations) par les administrateurs du centre.
 
@@ -58,8 +58,7 @@ Chaque professeur enseigne au maximum 3 groupes.
     <img src="images/Graphe.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/MCD.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/MLD.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
- 
- <img src="images/2.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
+    <img src="images/2.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/3.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/4.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/1.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
