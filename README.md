@@ -66,3 +66,5 @@ Chaque professeur enseigne au maximum 3 groupes.
     <img src="images/6.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
     <img src="images/7.png" alt="Logo" style=" height: 350px; border-radius: 50%;">
 </div>
+
+[View the PDF](rapportPrpjet.pdf)
