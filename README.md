@@ -68,3 +68,6 @@ Chaque professeur enseigne au maximum 3 groupes.
 </div>
 
 [View the PDF](rapportPrpjet.pdf)
+Ali Harit
+Salma Aboutofil
+Zakaria Elhajjam
